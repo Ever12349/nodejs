@@ -10,5 +10,5 @@
 
 ### 1.2 练习创建一个服务器
    第一步 引入“http”模块，语法是:
-   > var http = require("http");
+   > const http = require("http");
 
