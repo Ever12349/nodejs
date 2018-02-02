@@ -7,7 +7,7 @@
 ### 1.1 第一个nodjs文件
 
    学习如何运行nodejs文件：<br/>
-   
+
    在命令提示行中，首先进入文件所在目录然后输入下列命令：node 文件名称，就可以运行。 <br />
 
 ### 1.2 练习创建一个服务器
@@ -19,6 +19,7 @@
    
    第三步 为保持服务器持续不断运行，需要进行监听，调用服务器的listen方法。下面为详细代码
    > var server = http.createServer(function(request,response){});
+   
    > server.listen(8080);//8080为端口号。
    
    第四步 文件的读写 <br />
